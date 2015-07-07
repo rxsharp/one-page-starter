@@ -1,3 +1,3 @@
-# Simple One Page Responsive Site
+# One Page Starter
 
-The purpose of this project was to redesign/customize a simple one page template using [Skeleton](https://github.com/dhg/Skeleton), a responsive boilerplate.  
+This project builds from the [one-page-template](https://github.com/rxsharp/one-page-template) that uses [Skeleton](https://github.com/dhg/Skeleton), a responsive boilerplate, as a starting point. 
