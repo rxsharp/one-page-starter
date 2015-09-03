@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Simple one-page template</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href='https://fonts.googleapis.com/css?family=Palanquin:400,600,300,100' rel='stylesheet' type='text/css'>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- All the rest of the css is imported -->
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <style type="text/css">
+    .odd {background:#D3EBC7;}
+    .even {background:#AABFAA;}
+    .docs-header {
+    border-style: solid;
+    border-width: medium;
+    border-color:#BF9692;
+    }
+    /*Colors taken from http://www.colourlovers.com/palette/46256/sometimes_i...*/
+
+  </style>
+</head>
+<body>
+  <div class="container">
+<!-- Grid -->
+    <div class="docs-section" id="grid">
+      <h2 class="docs-header">The grid</h2>
+        <div class="row">
+          <div class="one column odd">One</div>
+          <div class="eleven columns odd">Eleven</div>
+        </div>
+        <div class="row">
+          <div class="two columns even">Two</div>
+          <div class="ten columns even">Ten</div>
+        </div>
+        <div class="row">
+          <div class="three columns odd">Three</div>
+          <div class="nine columns odd">Nine</div>
+        </div>
+        <div class="row">
+          <div class="four columns even">Four</div>
+          <div class="eight columns even">Eight</div>
+        </div>
+        <div class="row">
+          <div class="five columns odd">Five</div>
+          <div class="seven columns odd">Seven</div>
+        </div>
+        <div class="row">
+          <div class="six columns even">Six</div>
+          <div class="six columns even">Six</div>
+        </div>
+        <div class="row">
+          <div class="seven columns odd">Seven</div>
+          <div class="five columns odd">Five</div>
+        </div>
+        <div class="row">
+          <div class="eight columns even">Eight</div>
+          <div class="four  columns even">Four</div>
+        </div>
+        <div class="row">
+          <div class="nine columns odd">Nine</div>
+          <div class="three columns odd">Three</div>
+        </div>
+        <div class="row">
+          <div class="ten columns even">Ten</div>
+          <div class="two columns even">Two</div>
+        </div>
+        <div class="row">
+          <div class="eleven columns odd">Eleven</div>
+          <div class="one column odd">One</div>
+        </div>
+      </div>
+      
+    <!-- Typography -->
+    <div class="docs-section" id="typography">
+    <h2 class="docs-header">Typography</h2>
+      <h1>Heading<span class="heading-font-size"> <code>&lt;h1&gt;</code> 50rem</span></h1>
+      <h2>Heading<span class="heading-font-size"> <code>&lt;h2&gt;</code> 42rem</span></h2>
+      <h3>Heading<span class="heading-font-size"> <code>&lt;h3&gt;</code> 36rem</span></h3>
+      <h4>Heading<span class="heading-font-size"> <code>&lt;h4&gt;</code> 30rem</span></h4>
+      <h5>Heading<span class="heading-font-size"> <code>&lt;h5&gt;</code> 24rem</span></h5>
+      <h6>Heading<span class="heading-font-size"> <code>&lt;h6&gt;</code> 15rem</span></h6>
+    </div><!--End of Typography-->
+
+    <!-- Buttons -->
+    <div class="docs-section" id="buttons">
+    <h2 class="docs-header">Buttons</h2>
+          <div>
+          <a class="button" href="#">Anchor button</a>
+          <button>Button element</button>
+          <input type="submit" value="submit input">
+          <input type="button" value="button input">
+        </div>
+        <div>
+          <a class="button button-primary" href="#">Anchor button</a>
+          <button class="button-primary">Button element</button>
+          <input class="button-primary" type="submit" value="submit input">
+          <input class="button-primary" type="button" value="button input">
+        </div>
+    </div><!--End of Buttons-->
+    
+    <!-- Forms -->
+    <div class="docs-section" id="forms">
+    <h2 class="docs-header">Forms</h2>
+    <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleEmailInput">Your email</label>
+              <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+            </div>
+            <div class="six columns">
+              <label for="exampleRecipientInput">Reason for contacting</label>
+              <select class="u-full-width" id="exampleRecipientInput">
+                <option value="Option 1">Questions</option>
+                <option value="Option 2">Admiration</option>
+                <option value="Option 3">Can I get your number?</option>
+              </select>
+            </div>
+          </div>
+          <label for="exampleMessage">Message</label>
+          <textarea class="u-full-width" placeholder="Hi Dave &hellip;" id="exampleMessage"></textarea>
+          <label class="example-send-yourself-copy">
+            <input type="checkbox">
+            <span class="label-body">Send a copy to yourself</span>
+          </label>
+          <input class="button-primary" type="submit" value="Submit">
+        </form>
+    </div><!--End of Forms-->
+    
+    <!-- Lists -->
+    <div class="docs-section" id="lists">
+    <h2 class="docs-header">Lists</h2>
+     <div class="row">
+        <div class="six columns">
+          <ul>
+            <li>Unordered lists have basic styles</li>
+            <li>
+              They use the circle list style
+              <ul>
+                <li>Nested lists styled to feel right</li>
+                <li>Can nest either type of list into the other</li>
+              </ul>
+            </li>
+            <li>Just more list items mama san</li>
+          </ul>
+        </div>
+        <div class="six columns">
+          <ol>
+            <li>Ordered lists also have basic styles</li>
+            <li>
+              They use the decimal list style
+              <ul>
+                <li>Ordered and unordered can be nested</li>
+                <li>Can nest either type of list into the other</li>
+              </ul>
+            </li>
+            <li>Last list item just for the fun</li>
+          </ol>
+        </div>
+        </div> <!--End of row-->
+    
+    </div><!--End of Lists-->
+
+    <!-- Code -->
+    <div class="docs-section" id="code">
+    <h2 class="docs-header">Code</h2>
+<pre><code>.some-class {
+  background-color: red;
+}</code></pre>
+    </div><!--End of Code-->
+    
+    <!-- Tables -->
+    <div class="docs-section" id="tables">
+    <h2 class="docs-header">Tables</h2>
+
+    </div><!--End of Tables-->
+ <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Sex</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dave Gamache</td>
+              <td>26</td>
+              <td>Male</td>
+              <td>San Francisco</td>
+            </tr>
+            <tr>
+              <td>Dwayne Johnson</td>
+              <td>42</td>
+              <td>Male</td>
+              <td>Hayward</td>
+            </tr>
+          </tbody>
+        </table>
+  </div> <!--End of Main Container -->
+  <footer>
+  	<p>This is the footer</p>
+  </footer>
+
+</body>
+</html>
