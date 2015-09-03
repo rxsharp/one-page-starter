@@ -155,13 +155,15 @@
 footer {
   background-color: #254540; 
   text-align: center;
-  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 35px;
 }
 
 footer p {
   color: #FFF;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
-  /*font-weight: 500;*/
+  line-height:10px;
+  font-weight: 500;
   margin: auto;
 }
