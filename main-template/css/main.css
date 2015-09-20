@@ -1,0 +1,13 @@
+/*When adding new templates, add the import here*/
+@import 'new.css'; /*Current css for index template*/
+@import 'skeleton.css';
+
+/*
+
+When adding a new template
+
+1. COPY/PASTE main-template directory onto the root directory
+2. RENAME 'nameoftemplate' directory == nameoftemplate.css == @import 'nameoftemplate'; on main.css == nameoftemplate.html
+3. Change titles for index.html and page-template (Elements is optional)
+
+*/

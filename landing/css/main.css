@@ -1,0 +1,5 @@
+/*When adding new templates, add the import here*/
+@import 'lesson.css'; /*Current css for index template*/
+@import 'landing.css'; 
+@import 'skeleton.css';
+
