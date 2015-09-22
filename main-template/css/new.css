@@ -1,4 +1,11 @@
 /*Index of project #11DFC7;*/
+.github-repo{
+  float: right;
+}
+
+button a {
+  text-decoration: none;
+}
 
 .section-heading-front, .section-description-front {
     margin-bottom: 1.2rem;
